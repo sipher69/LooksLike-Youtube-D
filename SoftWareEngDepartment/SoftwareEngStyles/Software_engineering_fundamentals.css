@@ -1,0 +1,35 @@
+
+:root{
+    /*videos */
+--videos-padding-top:5rem;
+--videos-width:100%;
+/*images */
+
+--images-height:100%;
+--images-width:100%;
+
+--img2-width:90%;
+}
+
+
+#V1 ,#V2{
+    padding-top: var(--videos-padding-top);
+width: var(--videos-width);
+}
+
+
+#img1{
+    padding-top: 50px;
+height:var(--images-height);
+width: var(--images-width);
+}
+#img2{
+height:var(--images-height);
+width: var(--img2-width);
+
+}
+
+#C1{
+margin-left: 10rem;
+
+}
